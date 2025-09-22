@@ -18,15 +18,19 @@ public class FizzBuzzMenu {
             choice = sc.nextInt();
             switch(choice) {
                 case 1:
+                    System.out.println("What amount do you want to add?");
                     double adding = sc.nextDouble();
                     bankAccount = bankAccount + add;
+                    System.out.println("Result: " + bankAccount);
                     break;
                 case 2:
+                    System.out.println("What amount are you withdrawing?");
                     double minus = sc.nextDouble();
                     bankAccount = bankAccount - minus;
+                    System.out.println("Result: " + bankAccount);
                     break;
                 case 3: 
-                    System.out.println(bankAccount);
+                    System.out.println("You have " + bankAccount) " dollars.");
                     break;
                 case 4:
                     running = false;

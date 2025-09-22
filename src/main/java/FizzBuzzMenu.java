@@ -18,12 +18,12 @@ public class FizzBuzzMenu {
             choice = sc.nextInt();
             switch(choice) {
                 case 1:
-                    double add = sc.nextDouble();
-                    bankAccount += add;
+                    double adding = sc.nextDouble();
+                    bankAccount = bankAccount + add;
                     break;
                 case 2:
-                    double subtract = sc.nextDouble();
-                    bankAccount -= subtract;
+                    double minus = sc.nextDouble();
+                    bankAccount = bankAccount - minus;
                     break;
                 case 3: 
                     System.out.println(bankAccount);

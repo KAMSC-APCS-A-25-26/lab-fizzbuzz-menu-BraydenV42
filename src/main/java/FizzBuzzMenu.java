@@ -9,10 +9,10 @@ public class FizzBuzzMenu {
         while(running) {
             int choice;
             System.out.println("------------Bank Account-------------");
-            System.out.println("Add money");
-            System.out.println("Withdraw money");
-            System.out.println("Check balance");
-            System.out.println("Exit");
+            System.out.println("1. Add money");
+            System.out.println("2. Withdraw money");
+            System.out.println("3. Check balance");
+            System.out.println("4. Exit");
             System.out.println("--------------------------------------");
             System.out.println("Whats your choice?");
             choice = sc.nextInt();

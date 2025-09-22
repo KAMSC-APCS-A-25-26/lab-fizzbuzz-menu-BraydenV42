@@ -20,7 +20,7 @@ public class FizzBuzzMenu {
                 case 1:
                     System.out.println("What amount do you want to add?");
                     double adding = sc.nextDouble();
-                    bankAccount = bankAccount + add;
+                    bankAccount = bankAccount + adding;
                     System.out.println("Result: " + bankAccount);
                     break;
                 case 2:
@@ -30,7 +30,7 @@ public class FizzBuzzMenu {
                     System.out.println("Result: " + bankAccount);
                     break;
                 case 3: 
-                    System.out.println("You have " + bankAccount) " dollars.");
+                    System.out.println("You have " + bankAccount + " dollars.");
                     break;
                 case 4:
                     running = false;
